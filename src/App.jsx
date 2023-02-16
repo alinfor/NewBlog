@@ -1,8 +1,13 @@
+import { Provider } from "react-redux"
+import Todos from "./todos"
+import store from "./Store"
 
 
 function App() {
   return (
-    <>Blog</>
+    <Provider store={store}>
+    <Todos/>
+    </Provider>
   )
 }
 
