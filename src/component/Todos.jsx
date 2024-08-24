@@ -10,7 +10,6 @@ const Todos = () => {
 
   return (
     <>
-      <h2>Liste of todo</h2>
       <div className="flex flex-wrap space-x-1">
         {t.map((item) => (
           <div
